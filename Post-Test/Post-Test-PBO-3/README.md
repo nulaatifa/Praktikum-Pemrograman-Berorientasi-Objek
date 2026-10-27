@@ -1,6 +1,6 @@
 # Star Home of DVD & Film
 
-Posttest 3 PBO (Python) - Abstraksi, Polimorfisme, dan Relasi UML. Lanjutan dari posttest 1 dan posttest 2.
+Posttest 3 PBO 
 
 **Cara menjalankan**
 
