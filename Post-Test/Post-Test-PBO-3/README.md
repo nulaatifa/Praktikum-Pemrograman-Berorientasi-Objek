@@ -34,7 +34,7 @@ Konsep posttest sebelumnya tetap dipakai: `super().__init__()` di kedua subclass
 - **Operator overloading**: `Film.__str__()` membuat `str(film)` menampilkan judul dan genre; `Katalog.__len__()` membuat `len(katalog)` mengembalikan jumlah film di dalamnya (bagian 5).
 - Tidak ada percabangan `if`/`elif` yang mengecek `type()` atau string jenis untuk membedakan perilaku di manapun dalam program ini.
 
-**Nilai plus - SOLID (Open/Closed Principle)**
+**SOLID (Open/Closed Principle)**
 
 Struktur abstraksi `Film` sudah otomatis menerapkan OCP: menambah jenis film baru (misalnya `FilmAnimasi`) cukup dengan membuat subclass baru yang mengimplementasikan `deskripsi_detail()` dan `hitung_denda_tambahan()`, tanpa mengubah kode `Film`, `FilmBioskop`, `FilmSeries`, `Transaksi`, atau `Katalog` yang sudah ada dan sudah teruji.
 
